@@ -25,7 +25,7 @@ kestrel run showcase/web_server.kst
 | `error_handling/` | try/catch/finally, with blocks, defer |
 | `security/` | Taint tracking, effects, capabilities, constant-time, crypto |
 | `advanced/` | Unsafe, FFI, generics, traits, closures, modules, annotations, contracts, nullable, pattern matching |
-| `showcase/` | Web server, kernel module, bare metal OS, ML pipeline, CLI app |
+| `showcase/` | Web server, Linux kernel module, Raspberry Pi bare-metal OS, ML pipeline, CLI app |
 | `errors/` | Intentional compile failures showing what the compiler catches |
 
 ## Status
