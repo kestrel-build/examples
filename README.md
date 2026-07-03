@@ -1,6 +1,21 @@
 # Kestrel Example Programs
 
+[![Verify examples](https://github.com/kestrel-build/examples/actions/workflows/verify.yml/badge.svg)](https://github.com/kestrel-build/examples/actions/workflows/verify.yml)
+
 Example programs written in [Kestrel](https://kestrel-build.github.io), a memory-safe, taint-aware systems programming language.
+
+## Verified vs. teaching examples
+
+- **`verified/`** is the canonical, CI-tested set. Every program there is
+  compiled **and run** against each published release binary by the
+  [verify workflow](.github/workflows/verify.yml); its output is asserted
+  against a `.expected` file (and exit code against `.exitcode`). Files under
+  `verified/compile-fail/` must be *rejected* by the compiler. This is the
+  public proof that a release actually works — it exercises the shipped binary,
+  not the source. Run it yourself: `KESTREL=kestrel ./verified/verify.sh`.
+- The category folders below (`basics/`, `control_flow/`, …) are the broader
+  teaching set. Some are marked `Status: designed` and demonstrate planned
+  syntax that does not compile yet.
 
 ## Running examples
 
