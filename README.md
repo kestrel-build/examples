@@ -1,6 +1,7 @@
 # Kestrel Example Programs
 
 [![Verify examples](https://github.com/kestrel-build/examples/actions/workflows/verify.yml/badge.svg)](https://github.com/kestrel-build/examples/actions/workflows/verify.yml)
+[![Style](https://github.com/kestrel-build/examples/actions/workflows/style.yml/badge.svg)](https://github.com/kestrel-build/examples/actions/workflows/style.yml)
 
 Example programs written in [Kestrel](https://kestrel-build.github.io), a memory-safe, taint-aware systems programming language.
 
