@@ -31,7 +31,7 @@ kestrel run showcase/web_server.kst
 
 | Directory | Description |
 |-----------|-------------|
-| `basics/` | Hello world, types, constants, math, functions |
+| `basics/` | Hello world, types, constants, math, functions, checked overflow |
 | `control_flow/` | If/else, loops, match/case, break/continue |
 | `data/` | Arrays, strings, tuples, enums, structs, classes |
 | `ownership/` | Move semantics, borrowing, discard, const enforcement |
